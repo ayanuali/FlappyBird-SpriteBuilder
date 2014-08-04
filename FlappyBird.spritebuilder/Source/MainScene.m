@@ -157,6 +157,11 @@
         }
     }
     
+    // move and loop the bushes
+    for (CCNode *cloud in _clouds) {
+        
+    }
+    
     NSMutableArray *offScreenObstacles = nil;
     
     for (CCNode *obstacle in _obstacles) {
