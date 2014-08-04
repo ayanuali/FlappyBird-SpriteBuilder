@@ -42,6 +42,10 @@
     
     _grounds = @[_ground1, _ground2];
     
+    _clouds = @[_cloud1, _cloud2];
+    
+    _bushes = @[_bush1, _bush2];
+    
     for (CCNode *ground in _grounds) {
         // set collision txpe
         ground.physicsBody.collisionType = @"level";
